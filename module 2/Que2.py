@@ -1,0 +1,10 @@
+num=int(input("enter your number:"))
+factorial = 1
+if num == 0:
+   print("The factorial of 0 is 1")
+elif num<0:
+   print("factorial number cant be negative")
+else:
+   for i in range(1,num + 1):
+       factorial = factorial*i
+   print("The factorial of",num,"is",factorial)
